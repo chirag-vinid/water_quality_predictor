@@ -1,0 +1,18 @@
+{
+  "lookback": 8,
+  "horizon_steps": [
+    1,
+    2,
+    4
+  ],
+  "feature_cols": [
+    "pH",
+    "Turbidity_NTU",
+    "TDS_ppm",
+    "Temperature_C",
+    "Flow_Rate_Lmin",
+    "Water_Quality_Index"
+  ],
+  "target_col": "Water_Quality_Index",
+  "time_col": "Timestamp"
+}
