@@ -1,0 +1,26 @@
+{
+  "lookback": 8,
+  "horizon_steps": [
+    1,
+    2,
+    4
+  ],
+  "sensor_cols": [
+    "pH",
+    "Turbidity_NTU",
+    "TDS_ppm",
+    "Temperature_C",
+    "Flow_Rate_Lmin"
+  ],
+  "feature_cols": [
+    "pH",
+    "Turbidity_NTU",
+    "TDS_ppm",
+    "Temperature_C",
+    "Flow_Rate_Lmin",
+    "WQI_hat"
+  ],
+  "target_col": "Water_Quality_Index",
+  "time_col": "Timestamp",
+  "rf_model_path": "artifacts/rf_current_wqi.joblib"
+}
